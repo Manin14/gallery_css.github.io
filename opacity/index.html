@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> belajar opacity</title>
+
+	<style type="text/css">
+		body {
+			/*background-image: url(subtle_patterns.png);*/
+		}
+
+		.opa {
+			width: 300px;
+			height: 300px;
+			background-color: orange;
+			opacity: 0.5;
+		}
+
+		.shadow {
+			width: 300px;
+			height: 300px;
+			background-color: red;
+			margin : 50px auto;
+			box-shadow: 30px 30px 5px   rgba(0,0,0,0.75);
+		}
+
+		.text_shadow {
+			font-size: 100px;
+			font-family: arial;
+			text-align: center;
+			text-shadow: 5px 5px 5px green;
+		}
+
+		.gradasi {
+			width: 600px;
+			height: 300px;
+			margin: 50px auto;
+			background-image: linear-gradient(red,yellow,green);
+		}
+	</style>
+</head>
+<body>
+
+	<!-- opacity -->
+	<!-- ada opacity, rgba, hsla -->
+    <h1>opacity </h1>
+   <div class="opa">an </div>
+
+   <!-- box-shadow -->
+   <h2>box shadow / bayangan</h2>
+   <div class="shadow"></div>
+
+   <!-- text shadow -->
+   <h1 class="text_shadow"> hello world</h1>
+
+
+   <!-- linear gradient, / gradasi warna, bisa pake sudut, bisa pake arah -->
+   <h2>belajar gradient</h2>
+   <div class="gradasi"></div>
+
+
+</body>
+</html>

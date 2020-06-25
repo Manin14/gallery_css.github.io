@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>belajar animasi</title>
+
+	<style type="text/css">
+		.satu {
+			width: 200px;
+			height: 200px;
+			background-color: salmon;
+			animation: animasiKotak 3s ease infinite;
+			/*tulias nama anmasinya dan kecepatan gerak animasinya 3s*/
+			/*infinite supaya animasinya terus berjalan gak berenti*/
+		}
+
+		@keyframes animasiKotak {
+			0% { width: 200px; }
+			50% { background-color: yellow; }
+			100% { width: 500px; background-color: green;} 
+		}
+
+		.dua {
+           width: 200px;
+			height: 200px;
+			margin-top: 20px;
+			background-color: grey;
+		}
+
+		.dua:hover {
+			animation: animasiKotak 3s ease infinite;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>belajar animasi</h1>
+	<!-- animasi itu, pake @keyframes -->
+
+	<div class="satu"></div>
+
+	<div class="dua"></div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> belajar transform</title>
+
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+		
+		div.satu {
+			width: 200px;
+			height: 200px;
+			background-color: lightblue;
+			margin: 50px auto 0;
+			transition: 1s; /* transisi 1 detik, untuk berputar secara perlahan*/
+		}
+
+		div.satu:hover {
+			transform: rotate(180deg)  rotateX(180deg)  rotateY(180deg); /*rotasi berputar 45 derajat*/
+		}
+
+		div.dua {
+			width: 200px;
+			height: 200px;
+			background-color: yellow;
+			margin: 50px auto 0;
+			transition: 1s; /* transisi 1 detik, untuk berputar secara perlahan*/
+		}
+
+		div.dua:hover {
+			transform: rotate(45deg) ; /*rotasi berputar 45 derajat*/
+
+		}
+
+		div.tiga {
+			width: 200px;
+			height: 200px;
+			background-color: yellow;
+			margin: 50px auto 0;
+			transition: 1s; /* transisi 1 detik, untuk berputar secara perlahan*/
+		}
+
+		div.tiga:hover {
+			transform:  translate(50px, 100px) scale(3) ; /*rotasi berputar 45 derajat*/
+          /*scale untuk memperbesar/ memperkecil ukurannya*/
+		}
+	</style>
+</head>
+<body>
+
+<h1> belajar transform</h1>
+ <div class="dua"></div>
+
+ <div class="satu"></div>
+
+ <div class="tiga"></div>
+
+ <!-- ada skew, rotate, scale, translate -->
+
+</body>
+</html>
